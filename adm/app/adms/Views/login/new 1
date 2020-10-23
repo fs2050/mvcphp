@@ -1,0 +1,67 @@
+Arquivos .htaccess compreendem diretivas que podem fazer mudanças em configurações​ ​a​ ​nível​ ​de​ ​diretório,​ ​sobre​ ​eles​ ​assinale​ ​a​ ​afirmação​ ​incorreta.
+
+Alternative
+O uso do .htaccess para o controle de autenticação não é a melhor solução
+A linha AccessFileName .setup permite que .htaccess pode ser alterado para​ ​.setup
+​AllowOverride​ ​All​ ​fornece​ ​sobrescrita​ ​total​ ​sobre​ ​o​ ​.htaccess
+​“a”​ ​e​ ​“b”​ ​estão​ ​incorretas
+As diretrizes são aplicadas independente da ordem em que são encontradas​ ​na​ ​árvore​ ​de​ ​pastas
+
+
+public class Conn(){
+
+ $host = "localhost";
+ $user = "root";
+ $pass = "";
+ $dbname = "celke";
+ $port = 3308;
+ $connect = "null";
+ 
+  public function conectar(){
+  
+   try(
+   $this->connect = new PDO('mysql:host='.$this->host.  ';
+								   port='.$this->port. ';
+								   dbname='.$this->dbname,'$user, $pass );
+   echo 'conexao com sucesso';
+   return $this->connect;
+   }
+   catch(exception, $ex){
+   echo"Conxão deu ruim". $ex;
+   return false;
+   }
+   }
+   
+   
+   public class conexao(){
+   
+   $host = "localhost";
+   $user = "root";
+   $pass = "";
+   $dbname = "celke";
+   $port = 3308;
+   $connect ='null';
+   
+   public function conectar(){
+          $this->connect = new PDO('mysql:host='. $this->host.';
+										  port='.$this->port.';
+										  dbname='.$this->dbname, $this->user, $this->pass)
+										   echo 'Cenexão';
+										   return $this->connect;
+										   }
+										   
+										  
+										  
+										  }
+catch(Exception, $ex){
+ echo "deu ruim'. $ex;
+return false;}} 
+   
+   
+   
+   
+   
+   
+   
+   
+
